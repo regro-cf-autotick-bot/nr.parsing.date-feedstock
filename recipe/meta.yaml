@@ -27,12 +27,8 @@ requirements:
 
 test:
   imports:
-    - benchmarks
     - nr
-  commands:
-    - {{ PYTHON }} -m pip check
-  requires:
-    - pip
+    - nr.parsing.date
 
 about:
   home: https://git.niklasrosenstein.com/NiklasRosenstein/nr
