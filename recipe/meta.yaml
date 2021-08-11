@@ -1,5 +1,5 @@
 {% set name = "nr.parsing.date" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nr.parsing.date-{{ version }}.tar.gz
-  sha256: 473ae486a5bcdee77a8449dd9ab26d7b13a51f883c8c7106ae4b609dd26af385
+  sha256: dbd4fe953c2846a8d2e454c760049e262f302f43e5193705dc0abb794af6b3d7
 
 build:
   number: 0
