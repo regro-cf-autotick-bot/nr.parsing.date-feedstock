@@ -30,7 +30,7 @@ test:
     - benchmarks
     - nr
   commands:
-    - pip check
+    - {{ PYTHON }} -m pip check
   requires:
     - pip
 
