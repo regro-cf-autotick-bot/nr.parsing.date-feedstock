@@ -11,7 +11,7 @@ source:
   sha256: dbd4fe953c2846a8d2e454c760049e262f302f43e5193705dc0abb794af6b3d7
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -29,6 +29,10 @@ test:
   imports:
     - nr
     - nr.parsing.date
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://git.niklasrosenstein.com/NiklasRosenstein/nr
